@@ -27,18 +27,14 @@ const App = () => {
               </li>
             )}
           </ul>
-          <button
-            className="more"
-            onClick={getPasswords}>
+          <button className="more" onClick={getPasswords}>
             Get More
           </button>
         </div>
       ) : (
         <div>
           <h1>No passwords :(</h1>
-          <button
-            className="more"
-            onClick={getPasswords}>
+          <button className="more" onClick={getPasswords}>
             Try Again?
           </button>
         </div>
